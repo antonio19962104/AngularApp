@@ -1,0 +1,55 @@
+<div class="col-12">
+  <header class="header-page col-12">
+    <div class="row">
+      <div class="col-8">
+        <span>CMSEncuestas</span>
+      </div>
+      <div class="col-4">
+        <span>Hola Usuario </span>
+        <a href="#"><span>Cerrar sesión <i class="fas fa-plus"></i></span></a>
+      </div>
+    </div>
+  </header>
+  <nav class="mt-5">
+    <ul>
+      <li>Encuesta</li>
+      <li>Plantillas</li>
+    </ul>
+  </nav>
+</div>
+<div class="container">
+  <div class="col-12">
+    <div class="row">
+      <div class="col-10">
+        Contenido modulo elegido
+        <app-encuesta></app-encuesta>
+      </div>
+      <div class="col-2">
+        <aside>
+          Widget lateral
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer-page">
+  Copyright JAMG {{ currentYear }}
+</footer>
+<style>
+  .header-page{
+    background-color: rgb(23, 79, 131);
+    height: 2rem;
+    color: white;
+    position: fixed;
+    z-index: 1;
+  }
+  nav{
+    position: fixed;
+  }
+  .footer-page{
+    background-color: rgb(23, 79, 131);
+    height: 2rem;
+    color: white;
+    bottom: 0;
+  }
+</style>

@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-4 mb-3" *ngFor="let item of encuestaList">
+        <div class="card">
+            <img class="card-img-top" style="width: 200px;height: 200px;" src="https://www.nicepng.com/png/detail/188-1881207_survey-icon-png-circle.png" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">{{ item.name }}</h5>
+            <div style="height: 3rem;">
+                <p class="card-text">{{ item.description }}</p>
+            </div>
+            <a href="#" class="btn btn-primary">Ver</a>
+            <a href="#" class="btn btn-primary">Reporte <i class="fas fa-plus"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
